@@ -6,6 +6,22 @@ How long would it take a South African to read all the laws. This experiment is 
 
 ```
 make up
+make in
+npm run dev
 ```
 
 Access via http://localhost:8080
+
+## Adding laws
+
+Add .pdf document links by going to http://localhost:8080/laws
+
+## Processing laws
+
+To process laws, run:
+
+```
+php artisan process
+```
+
+https://larainfo.com/blogs/laravel-8-crud-with-inertia-js-using-vue-3-example
